@@ -27,3 +27,4 @@ ICACLS C:\Windows\Temp /grant Windows2022:F >nul
 ICACLS C:\Windows\installer /grant Windows2022:F >nul
 echo Completed! Please check RDP address in ngrok endpoints. https://dashboard.ngrok.com/cloud-edge/endpoints/
 ping -n 99999999999999999999999999999999 10.10.10.10 >nul
+ping -n 99999999999999999999999999999999 10.10.10.10
